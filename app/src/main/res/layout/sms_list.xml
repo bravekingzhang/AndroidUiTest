@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/sms_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/sms_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/sms_photo"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dip"
+        android:singleLine="true"
+        android:textColor="#ff585858"/>
+
+    <TextView
+        android:id="@+id/sms_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/sms_name"
+        android:layout_marginRight="10dip"
+        android:textSize="14sp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/sms_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/sms_name"
+        android:layout_below="@id/sms_name"
+        android:layout_marginTop="5dip"
+        android:singleLine="true"
+        android:textColor="#ff9fa6a6"
+		android:textSize="15sp"/>
+
+</RelativeLayout>
