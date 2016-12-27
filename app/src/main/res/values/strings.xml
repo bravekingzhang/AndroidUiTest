@@ -44,5 +44,6 @@
     <string name="title_activity_key_board">KeyBoardActivity</string>
     <string name="title_activity_search_view_test">SearchViewTest</string>
     <string name="search_cancel"><u>取消</u></string>
+    <string name="edittext_hint"><font size="15">搜索</font></string>
 
 </resources>
