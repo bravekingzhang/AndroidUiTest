@@ -76,6 +76,7 @@
                     android:clickable="true"
                     android:focusable="true"
                     android:focusableInTouchMode="true"
+                    android:hint="搜索"
                     android:layout_weight="1"
                     android:background="#00000000" />
             </LinearLayout>
