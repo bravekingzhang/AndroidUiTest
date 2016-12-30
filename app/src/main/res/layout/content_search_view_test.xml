@@ -76,6 +76,8 @@
                     android:clickable="true"
                     android:focusable="true"
                     android:focusableInTouchMode="true"
+                    android:scrollbars="none"
+                    android:maxLines="1"
                     android:hint="@string/edittext_hint"
                     android:layout_weight="1"
                     android:background="#00000000" />

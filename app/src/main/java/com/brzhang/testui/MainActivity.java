@@ -4,10 +4,13 @@ import java.util.ArrayList;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -67,8 +70,6 @@ public class MainActivity extends Activity {
         Log.e(TAG, "onTouchEvent() called with: " + "event = [" + event + "]");
         return super.onTouchEvent(event);
     }
-
-
 
     private ArrayList<SmsItem> createSmsItems() {
         ArrayList<SmsItem> items = new ArrayList<SmsItem>();

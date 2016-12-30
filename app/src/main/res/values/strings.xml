@@ -45,5 +45,7 @@
     <string name="title_activity_search_view_test">SearchViewTest</string>
     <string name="search_cancel"><u>取消</u></string>
     <string name="edittext_hint"><font size="15">搜索</font></string>
+    <string name="show_more_comment_tips">更多%1d条回复</string>
+    <string name="title_activity_write_letter">WriteLetterActivity</string>
 
 </resources>
