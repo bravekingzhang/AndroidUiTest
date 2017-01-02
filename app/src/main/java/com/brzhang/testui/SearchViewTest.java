@@ -84,6 +84,9 @@ public class SearchViewTest extends AppCompatActivity {
             case R.id.menu_letter:
                 startActivity(new Intent(this,WriteLetterActivity.class));
                 break;
+            case R.id.menu_emoj:
+                startActivity(new Intent(this,EmojActivity.class));
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

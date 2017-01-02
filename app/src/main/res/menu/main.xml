@@ -3,6 +3,8 @@
     <item
         android:id="@+id/menu_letter"
         android:title="测试信纸"></item>
-    <item android:title="测试一"></item>
+    <item
+        android:id="@+id/menu_emoj"
+        android:title="emjo测试"></item>
     <item android:title="测试一"></item>
 </menu>

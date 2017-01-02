@@ -6,23 +6,26 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 
-import com.brzhang.widget.PlainEditText;
 
-public class WriteLetterActivity extends AppCompatActivity {
+public class EmojActivity extends AppCompatActivity {
 
-    PlainEditText editText;
+
+    private TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_write_letter);
+        setContentView(R.layout.activity_emoj);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        editText = (PlainEditText) findViewById(R.id.edit_text);
+        textView = (TextView) findViewById(R.id.text);
+        initData();
+    }
 
-
-
+    private void initData() {
+        String text = "[色][发怒][你大爷的]";
     }
 
 }

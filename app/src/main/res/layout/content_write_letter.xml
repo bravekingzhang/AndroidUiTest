@@ -17,18 +17,19 @@
         android:fillViewport="true">
 
         <com.brzhang.widget.PlainEditText
+            android:id="@+id/edit_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/comment_editor_bg"
             android:clickable="true"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:lineSpacingExtra="12dp"
-            android:lineSpacingMultiplier="1"
+            android:textSize="15sp"
+            android:lineSpacingExtra="30dp"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
             android:paddingTop="12dp"
-            android:text=""
+            android:text="[色][发怒][fesfse]积分三份\n,这就行了\n[色][发怒]呵呵，我猜不会呢\n[色][发怒]呵呵，我猜不会呢\n[色][发怒]呵呵，我猜不会呢\n[色][发怒]呵呵，我猜不会呢\n[色][发怒]呵呵，我猜不会呢"
             android:textCursorDrawable="@drawable/cursor" />
     </ScrollView>
 
